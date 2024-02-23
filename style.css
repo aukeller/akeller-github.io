@@ -27,6 +27,10 @@ p {
   padding: 10px;
 }
 
+figure {
+  margin-left: 0;
+}
+
 .photo-container {
   width: 200px;
   height: 200px;
