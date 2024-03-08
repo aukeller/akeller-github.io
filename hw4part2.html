@@ -1,86 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox</title>
-    <style>
-      * {
-        padding: 10px;
-        margin: 0;
-      }
-
-      .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-
-        font-size: 1.2rem;
-        font-weight: bold;
-      }
-
-      header,
-      footer {
-        width: 100%;
-      }
-
-      header,
-      footer,
-      aside {
-        text-align: center;
-      }
-
-      main,
-      .first-aside,
-      .second-aside,
-      section {
-        flex: 1;
-        height: 125px;
-      }
-
-      main,
-      section {
-        display: flex;
-        align-items: center;
-      }
-
-      header {
-        background-color: coral;
-      }
-
-      main {
-        background-color: darkblue;
-        color: white;
-
-        order: 2;
-      }
-
-      .first-aside {
-        background-color: yellow;
-        order: 1;
-      }
-
-      .second-aside {
-        background-color: pink;
-        order: 4;
-      }
-
-      section {
-        background-color: orchid;
-        color: blue;
-        order: 3;
-      }
-
-      footer {
-        display: flex;
-        flex-direction: column;
-        background-color: lightgreen;
-        order: 5;
-      }
-
-      span {
-        padding: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="hw4part2.css">
   </head>
   <body>
     <div class="flex-container">
@@ -94,12 +18,12 @@
       </main>
       <aside class="first-aside">This is the aside 1</aside>
       <aside class="second-aside">This is the aside 2</aside>
-      <section>
+      <div class="content-section">
         <p>
           This column was created to have some content as a challenge to adapt
           the old 3-column layout to a 4-column layout
         </p>
-      </section>
+      </div>
       <footer>
         <span>This is the footer</span>
         <span>Copyright &copy; 2017</span>

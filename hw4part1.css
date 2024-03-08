@@ -1,0 +1,28 @@
+.page-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh 50vh;
+}
+.news,
+.links,
+.search,
+.messages {
+  text-align: center;
+  font-weight: bold;
+}
+.news {
+  background-color: cyan;
+  order: 3;
+}
+.links {
+  background-color: orange;
+  order: 1;
+}
+.search {
+  background-color: violet;
+  order: 0;
+}
+.messages {
+  background-color: red;
+  order: 2;
+}

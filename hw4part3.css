@@ -1,0 +1,12 @@
+body {
+  font-size: 1.3rem;
+}
+.fourcol {
+  column-count: 4;
+  column-gap: 30px;
+  column-rule: 3px solid blue;
+}
+.footer {
+  text-align: center;
+  font-style: italic;
+}
